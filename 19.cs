@@ -10,6 +10,7 @@ string a = Console.ReadLine();
 while (a.Length != 5)
 {
     Console.WriteLine("Введи пятизначное число");
+    a = Console.ReadLine();
 }
 
 if (a [0] == a [4] || a [1]== a [3]){
